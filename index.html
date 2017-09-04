@@ -60,14 +60,18 @@
                 </div>
             </div>
         </div>
-        <div class="parallax">
+            <div class="header background show-on-med-and-down hide-on-large-only">
+                <img src="smallerbackground.jpg">
+            </div>
+        <div class="parallax hide-on-med-and-down">
             <video class="responsive-video" autoplay loop>
                 <source src="video/loop2.mp4" type="video/mp4">
                 <source src="video/poster.png">
                 <source src="video/loop2.webm" type="video/webm">
             </video>
-        </div>
-    </div>
+  </div>
+  </div>
+  </div>
     <div class="container">
         <div class="section">
             <!--   Icon Section   -->
@@ -164,6 +168,7 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+    <script>$('.carousel.carousel-slider').carousel({fullWidth: true});</script>
 </body>
 
 </html>
