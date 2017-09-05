@@ -22,7 +22,7 @@
                 <li><a href="https://vimeo.com/trevorsatt" target="_blank">Vimeo</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
-                <li><a href="projects.html" target="_blank">Projects</a></li>
+                <li><a href="projects.html">Projects</a></li>
             </ul>
             <ul id="nav-mobile" class="side-nav">
                 <li>
@@ -34,9 +34,9 @@
                         <a href="#!name"><span class="white-text name">Trevor Satterwhite</span></a>
                         <a href="#!email"><span class="white-text email">trevorsatterwhite@gmail.com</span></a>
                     </div>
-                    <li><a href="#!"><i class="material-icons">sentiment_very_satisfied</i>Hey, let's work together!</a></li>
+                    <li><a href="contact.html"><i class="material-icons">sentiment_very_satisfied</i>Hey, let's work together!</a></li>
                 </li>
-                <li><a href="projects.html" target="_blank">Projects</a></li>
+                <li><a href="projects.html">Projects</a></li>
                 <li><a href="https://github.com/trevorsatt" target="_blank">Github</a></li>
                 <li><a href="https://vimeo.com/trevorsatt" target="_blank">Vimeo</a></li>
             </ul>
@@ -46,43 +46,65 @@
     <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
             <div class="container">
-                <h3 class="header center yellow-text text-lighten-4 hide-on-med-and-down">Contact</h3>
-                <h5 class="header center blue-grey-text text-lighten-1 hide-on-large-only show-on-med-and-down ">Contact</h5>
-                <div class="row center">
-                    <h5 class="header col s12 light">  <div class="row"></h5>
-                    <form class="col s12">
-                        <div class="row">
-                            <div class="input-field col s6">
-                                <input id="name" type="text" class="validate">
-                                <label for="name">Name</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <input id="Email" type="text" class="validate">
-                                <label for="Email">Email</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <textarea class="materialize-textarea" data-length="120"></textarea>
-                                <label for="textarea1">Message</label>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                
-                <div class="center row">
-                    <form class="col s12">
-                        <div class="row">
-                            <a class="btn waves-effect waves-light orange" onclick="Materialize.toast('Message Sent!', 4000)">SEND<i class="material-icons right">send</i></a>
-                        </div>
-                    </form>
-                </div>
                 <div class="parallax hide-on-med-and-down">">
                     <video class="responsive-video" autoplay loop>
                         <source src="video/loop2.mp4" type="video/mp4">
                         <source src="video/poster.png">
                         <source src="video/loop2.webm" type="video/webm">
                     </video>
+                </div>
+                <br>
+                <br>
+                <h3 class="header center yellow-text text-lighten-4 hide-on-med-and-down">Contact</h3>
+                <h5 class="header center blue-grey-text text-lighten-1 hide-on-large-only show-on-med-and-down ">Contact</h5>
+    <div class="row show-on-large hide-on-med-and-down">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="name" type="text" class="validate white-text">
+          <label for="name">Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="email" type="text" class="validate white-text">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="interest" type="text" class="validate white-text">
+          <label for="interest">Interest</label>
+        </div>
+      </div>
+    </form>
+  </div>
+<!-- mobile -->
+    <div class="row show-on-med-and-down hide-on-large-only">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="name" type="text" class="validate grey-text">
+          <label for="name">Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="email" type="text" class="validate grey-text">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="interest" type="text" class="validate grey-text">
+          <label for="interest">Interest</label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+                    <form class="col s12">
+                        <div class="row">
+                            <a class="btn waves-effect waves-light orange" onclick="Materialize.toast('Message Sent!', 4000)">SEND<i class="material-icons right">send</i></a>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -105,24 +127,35 @@
                 </div>
             </div>
         </div>
+
+
         <div class="footer-copyright">
             <div class="container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
                 <a class="white-text" href="http://materializecss.com">
                 Made with
                 </a>
                 <i class="tiny material-icons orange-text text-lighten-1">code</i>
                 <a class="white-text" href="http://materializecss.com">
                 by
-                </a>
+                </a>    
                 <a class="yellow-text text-lighten-4" href="http://materializecss.com">
                 TREVOR SATTERWHITE
                 </a>
+
             </div>
         </div>
     </footer>
+
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
+    <script src="$('#textarea1').val('New Text');"</script>
+    <scritp src="$('#textarea1').trigger('autoresize');"</script>
     <script src="js/init.js"></script>
     <script src="$('.carousel.carousel-slider').carousel({fullWidth: true});"></script>
 </body>
