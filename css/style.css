@@ -39,7 +39,7 @@ p {
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    top:10%;
+    top: 40%;
   }
   #index-banner .section {
     top: 5%;
